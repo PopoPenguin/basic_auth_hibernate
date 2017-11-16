@@ -1,6 +1,6 @@
-*.iml
+*iml
 *.idea
 out/
 *.class
-*.DS_Store
+**/.DS_Store
 target/
