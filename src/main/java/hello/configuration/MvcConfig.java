@@ -18,17 +18,11 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
         registry.addViewController("/login").setViewName("login");
         //registry.addViewController("/registration").setViewName("registration");
 
-
-
-
     }
 
     @Bean
-    BCryptPasswordEncoder passwordEncoder(){
+    BCryptPasswordEncoder passwordEncoder() {
         BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
         return bCryptPasswordEncoder;
     }
-
-
-
 }
